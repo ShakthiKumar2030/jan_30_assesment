@@ -1,0 +1,14 @@
+<div id="parent" style="display: flex; align-items: center;justify-content: center;">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <div>
+                <h2>Excel File Upload</h2>
+                <div class="field" >
+                    <input style="margin-top: 10px; margin-left: 10px;" type="file" (change)="onFileSelected($event)" />
+                </div>
+
+                <button (click)="uploadFile()">Upload File</button>
+            </div>
+        </div>
+    </div>
+</div>
